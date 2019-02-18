@@ -1,0 +1,150 @@
+/*Body - START*/
+#whole_container{
+	width:1000px;
+	margin:0 auto;
+	}
+/*Body - END*/
+
+/*Header - START*/
+#Title_Bar{
+	color:#0099CC;
+	font-weight:bolder;
+	font-size:24px;
+	text-align:center;
+	padding:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #09C;
+	}
+/*Header - END*/
+
+/*Footer - START*/
+#addv{
+	margin-top:10px;
+	clear:both;
+	margin-top:10px;
+	background-color:#88C4FF;
+	color:#000;
+	}
+#addv a{
+	color:#D60E03;
+	text-decoration:none;
+	}
+/*Footer - END*/
+
+/*Other Common Styles - START*/
+fieldset{
+	border-radius:10px
+	}
+legend{
+	text-align:center;
+	font-weight:bold;
+	}
+.fl{float:left;}
+.fr{float:right;}
+.tlc{text-align:center;}
+button, input[type=submit], input[type=button]{
+	height:30px;
+	padding:2px 5px;
+	background-color:#09C;
+	color:#FFF;
+	border-radius:5px;
+	}
+/*Other Common Styles - END*/
+
+#container{
+		height:600px;
+		width:600px;
+		/*background:url('images/back1.png') repeat;*/
+		background-color:#9f9;
+		margin-right:20px;
+		margin-top:10px;
+		position:relative;
+		}
+	.pixels{
+		height:20px;
+		width:20px;
+		float:left;
+		border-radius:8px;
+		}
+	.holding_snake{
+		background-image:url('images/snake1.png');
+		}
+	.holding_evil_snake{
+		background-image:url('images/evil_snake.jpg');
+		}
+	.head_image_R, .evil_head_image_R{
+		background-image:url('images/snake_heads.png');
+		background-position:0 0;
+		}
+	.head_image_L, .evil_head_image_L{
+		background-image:url('images/snake_heads.png');
+		background-position:0 -40px;
+		}
+	.head_image_B, .evil_head_image_B{
+		background-image:url('images/snake_heads.png');
+		background-position:0 -20px;
+		}
+	.head_image_T, .evil_head_image_T{
+		background-image:url('images/snake_heads.png');
+		background-position:0 -60px;
+		}
+	
+	.food{
+		background-image:url('images/apple2.png');
+		}
+	.obstacle{
+		background-color:#000;
+		border-radius:0px;
+		}
+	#current_score > div > span{
+		font-size:20px;
+		padding-left:25px;
+		color:#CC0000;
+		font-weight:bold;
+		}
+	#current_score > div{
+		margin-bottom:5px;
+		text-align:center;
+		}
+	#this_level{
+		background:url('images/level.png') no-repeat;
+		}
+	#lifes{
+		background:url('images/life.png') no-repeat;
+		}
+	#total_score{
+		background:url('images/apple2.png') no-repeat;
+		}
+	.the_modal_container{
+		position:absolute;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background-image:url("images/modal_back.png");
+		background-repeat:repeat;
+		z-index:9999;
+		display:none;
+		}
+	.the_modal_container .body{
+		position:absolute;
+		top:0;
+		left:0;
+		bottom:40px;
+		right:0;
+		border-bottom: 2px solid #09C;
+		padding:20px;
+		}
+	.the_modal_container .buttons_container{
+		position:absolute;
+		left:0;
+		bottom:0;
+		right:0;
+		height:30px;
+		padding:4px;
+		text-align:right;
+		}
+	h3{
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:15px;
+		}
